@@ -6,9 +6,7 @@
 
 ### Задание 1. 
 Вычислите для заданных целых x, y: <br>
-$f(x) = \left\{\begin{matrix}  x/2,     x \% 2=0
-\\ 3x+1,     x \% 2 \neq 0
-\end{matrix}\right.$
+<a href="https://www.codecogs.com/eqnedit.php?latex={&space;f(x)&space;=&space;\left\{\begin{matrix}&space;x/2,&space;x&space;\%&space;2=0&space;\\&space;3x&plus;1,&space;x&space;\%&space;2&space;\neq&space;0&space;\end{matrix}\right.&space;}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?{&space;f(x)&space;=&space;\left\{\begin{matrix}&space;x/2,&space;x&space;\%&space;2=0&space;\\&space;3x&plus;1,&space;x&space;\%&space;2&space;\neq&space;0&space;\end{matrix}\right.&space;}" title="{ f(x) = \left\{\begin{matrix} x/2, x \% 2=0 \\ 3x+1, x \% 2 \neq 0 \end{matrix}\right. }" /></a>
 
 ```
 .data
@@ -48,9 +46,7 @@ f(x) = 5
 
 ### Задание 2. 
 Вычислите для заданного вещественного x: <br>
-$ \left\{\begin{matrix}  1-x/3,   x<13
-\\1+x,     x  \geq  13
-\end{matrix}\right.$
+<a href="https://www.codecogs.com/eqnedit.php?latex={&space;\left\{\begin{matrix}&space;1-x/3,&space;x<13&space;\\1&plus;x,&space;x&space;\geq&space;13&space;\end{matrix}\right.&space;}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?{&space;\left\{\begin{matrix}&space;1-x/3,&space;x<13&space;\\1&plus;x,&space;x&space;\geq&space;13&space;\end{matrix}\right.&space;}" title="{ \left\{\begin{matrix} 1-x/3, x<13 \\1+x, x \geq 13 \end{matrix}\right. }" /></a>
 
 ```C++
 #include <stdlib.h>
@@ -118,7 +114,7 @@ Enter x: 15 <br>
 
 ### Задание 3.
 Задайте с клавиатуры 𝑁 и напечатайте первые 𝑁 членов последовательности (целой).<br>
-Числа Фибоначчи: $𝜙_0 = 𝜙_1 = 1, 𝜙_{𝑖+1} = 𝜙_𝑖 + 𝜙_{𝑖−1}$ <br>
+Числа Фибоначчи: <a href="https://www.codecogs.com/eqnedit.php?latex=\phi&space;_0&space;=&space;\phi&space;_1&space;=&space;1,&space;\phi&space;_{i&plus;1}&space;=&space;\phi&space;_i&space;&plus;&space;\phi&space;_{i-1}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\phi&space;_0&space;=&space;\phi&space;_1&space;=&space;1,&space;\phi&space;_{i&plus;1}&space;=&space;\phi&space;_i&space;&plus;&space;\phi&space;_{i-1}" title="\phi _0 = \phi _1 = 1, \phi _{i+1} = \phi _i + \phi _{i-1}" /></a>
 ```C++
 #include <stdlib.h>
 #include <iostream>
@@ -186,8 +182,7 @@ Enter N: 5<br>
 ### Задание 4. 
 Найдите с заданной точностью 𝜀 сумму ряда (если это возможно).<br>
 Если ряд расходится, выведите сообщение об этом.<br>
-
-$S =  \sum_{i = 0}^{  \infty } ({-1})^i\frac{1}{2^i}$
+<a href="https://www.codecogs.com/eqnedit.php?latex=S&space;=&space;\sum_{i&space;=&space;0}^{&space;\infty&space;}&space;({-1})^i\frac{1}{2^i}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S&space;=&space;\sum_{i&space;=&space;0}^{&space;\infty&space;}&space;({-1})^i\frac{1}{2^i}" title="S = \sum_{i = 0}^{ \infty } ({-1})^i\frac{1}{2^i}" /></a>
 
 ```C++
 #include <stdlib.h>
